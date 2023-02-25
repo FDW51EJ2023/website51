@@ -64,7 +64,7 @@ ul {
 /* Estilo de OscarEnriquez5509 */
 #a7 {
     background-color: aquamarine;
-    color: black;
+    color: white;
     font-variant: small-caps;
     border-style: groove;
 }
@@ -131,6 +131,7 @@ ul {
 }
 #a18{
     font-variant: small-caps;
+    border: dotted 7px;
 }
 /* Fin de los Estilos de EduSegundo */
 
