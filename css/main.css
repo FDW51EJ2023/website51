@@ -77,7 +77,7 @@ ul {
 /* Estilos de CamiGom */
 #a9 {
     background-color: lightpink;
-    border: 2px groove;
+    border: 5px dashed palevioletred;
 }
 #a9 a {
     font-variant: small-caps;  
