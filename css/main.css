@@ -107,6 +107,10 @@ ul {
 /* Estilos de ArkhamTovar */
 #a19 {
     background-color: rgb(255, 145, 0);
+    border: dotted 5px;
+}
+#a19 a {
+    font-variant: small-caps;
 }
 /* Fin de estilos */
 
