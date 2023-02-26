@@ -13,3 +13,32 @@ p:hover{
     color: red;
     font-variant: small-caps;
 }
+
+/* Cambiar color de fondo al primer elemento de la lista */
+#lista1 li:first-child{
+    background-color: black;
+    color:green;
+}
+
+/* Ultimo elemento de la lista */
+#lista1 li:last-child{
+    border-bottom: 5px groove yellow;
+}
+
+/* Selecciona un elemento en especifico */
+
+#lista1 li:nth-child(7){
+    font-size: 20px;
+    border-left: 3px dotted blue;
+}
+
+
+/* Poner estilo a los elementos pares */
+#lista2 li:nth-child(even){
+    background-color: gainsboro;
+}
+
+/* Estilo a los elementos impares */
+#lista2 li:nth-child(odd){
+    background-color:yellow;
+}
