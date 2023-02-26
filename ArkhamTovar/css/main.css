@@ -1,0 +1,15 @@
+/* Estilo section */
+
+section{
+    border: 1px solid black;
+}
+
+section:hover{
+    border: 1px solid orange;
+    background-color: blue;
+}
+
+p:hover{
+    color: red;
+    font-variant: small-caps;
+}
