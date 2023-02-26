@@ -42,3 +42,8 @@ p:hover{
 #lista2 li:nth-child(odd){
     background-color:yellow;
 }
+
+/* cada5 elementos punteado */
+#lista2 li:nth-child(5n){
+    border-bottom: 3px dotted black;
+}
