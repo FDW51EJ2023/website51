@@ -93,6 +93,12 @@ ul {
 #a16 {
     background-color: rgb(73, 220, 37);
 }
+
+#a16 a {
+    font-variant: small-caps;
+    border: 2px;
+}
+
 /* Fin de estilo EDPM01 */
 #a17 {
     background-color: cornflowerblue;
