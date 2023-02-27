@@ -41,6 +41,11 @@ ul {
 /* Estilos de SaulDavalos*/
 #a5 {
     background-color: lightseagreen;
+    font-variant: small-caps;
+    border: dotted; 
+}
+#a5 a {
+    color: darkred;
 }
 /* Fin de estilos SaulDavalos */
 
