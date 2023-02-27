@@ -67,8 +67,9 @@ ul {
 #a9 {
     background-color: lightpink;
 }
-#a9 {
+#a9 a {
     font-variant: small-caps;
+    border: 2px ;
 }
 /* Fin de estilos de CamiGom */
 
