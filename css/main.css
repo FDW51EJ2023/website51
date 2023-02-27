@@ -33,7 +33,7 @@ ul {
 }
 
 #a4 {
-    background-color: red;
+    background-color: rgb(80, 160, 252);
 }
 
 #a5 {
@@ -45,7 +45,7 @@ ul {
 }
 
 #a7 {
-    background-color: red;
+    background-color: aquamarine;
 }
 
 #a8 {
@@ -81,15 +81,16 @@ ul {
 }
 
 #a16 {
-    background-color: red;
+    background-color: rgb(32, 229, 121);
+    color: white;
 }
 
 #a17 {
-    background-color: red;
+    background-color: cornflowerblue;
 }
 
 #a18 {
-    background-color: red;
+    background-color: blueviolet;
 }
 
 #a19 {
