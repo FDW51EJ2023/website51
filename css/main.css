@@ -23,11 +23,14 @@ ul {
 #a1 {
     background-color: red;
 }
-
+/* INICIO DE ESTILO Gerardo66-cyber*/
 #a2 {
     background-color: red;
 }
-
+#a2 a {
+    font-variant: small-caps;
+}
+/* FINAL DE ESTILO Gerardo66-cyber */
 #a3 {
     background-color: red;
 }
