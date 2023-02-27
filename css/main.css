@@ -46,6 +46,11 @@ ul {
 /* Estilos de SaulDavalos*/
 #a5 {
     background-color: lightseagreen;
+    font-variant: small-caps;
+    border: dotted; 
+}
+#a5 a {
+    color: darkred;
 }
 /* Fin de estilos SaulDavalos */
 
@@ -55,7 +60,7 @@ ul {
 
 /* Estilo de OscarEnriquez5509 */
 #a7 {
-    background-color: red;
+    background-color: aquamarine;
 }
 /* Fin de esilo OscarEnriquez5509 */
 
@@ -63,9 +68,14 @@ ul {
     background-color: red;
 }
 
+/* Estilos de CamiGom */
 #a9 {
     background-color: lightpink;
 }
+#a9 {
+    font-variant: small-caps;
+}
+/* Fin de estilos de CamiGom */
 
 #a10 {
     background-color: red;
@@ -81,7 +91,8 @@ ul {
 
 /* Estilos de Manue1Mart1nez26 */
 #a13 {
-    background-color: blue;
+    background-color: rgba(0, 38, 255, 0.486);
+    color:black
 }
 /* Fin de los estilos de Manue1Mart1nez26 */
 
