@@ -33,6 +33,9 @@ ul {
 }
 #a2  {border-style: dashed ;
 }
+#a2 {
+    border-radius: 10px;
+}
 /* FINAL DE ESTILO Gerardo66-cyber */
 #a3 {
     background-color: red;
