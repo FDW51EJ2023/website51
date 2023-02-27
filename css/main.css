@@ -77,10 +77,10 @@ ul {
 /* Estilos de CamiGom */
 #a9 {
     background-color: lightpink;
+    border: 2px groove;
 }
 #a9 a {
-    font-variant: small-caps;
-    border: 2px ;
+    font-variant: small-caps;  
 }
 /* Fin de estilos de CamiGom */
 
