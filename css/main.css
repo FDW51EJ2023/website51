@@ -78,8 +78,9 @@ ul {
 #a9 {
     background-color: lightpink;
 }
-#a9 {
+#a9 a {
     font-variant: small-caps;
+    border: 2px ;
 }
 /* Fin de estilos de CamiGom */
 
@@ -112,7 +113,13 @@ ul {
 /*  Estilo de EDPM01 */
 #a16 {
     background-color: rgb(73, 220, 37);
+    border: 2px;
 }
+
+#a16 a {
+    font-variant: small-caps;
+}
+
 /* Fin de estilo EDPM01 */
 #a17 {
     background-color: cornflowerblue;
