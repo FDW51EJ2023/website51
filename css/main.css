@@ -64,6 +64,9 @@ ul {
 /* Estilo de OscarEnriquez5509 */
 #a7 {
     background-color: aquamarine;
+    color: black;
+    font-variant: small-caps;
+    border-style: groove;
 }
 /* Fin de esilo OscarEnriquez5509 */
 
@@ -74,9 +77,10 @@ ul {
 /* Estilos de CamiGom */
 #a9 {
     background-color: lightpink;
+    border: 2px groove;
 }
-#a9 {
-    font-variant: small-caps;
+#a9 a {
+    font-variant: small-caps;  
 }
 /* Fin de estilos de CamiGom */
 
@@ -109,7 +113,13 @@ ul {
 /*  Estilo de EDPM01 */
 #a16 {
     background-color: rgb(73, 220, 37);
+    border: 2px;
 }
+
+#a16 a {
+    font-variant: small-caps;
+}
+
 /* Fin de estilo EDPM01 */
 #a17 {
     background-color: cornflowerblue;
