@@ -29,7 +29,10 @@ ul {
 }
 #a2 a {
     font-variant: small-caps;
-    border-style: groove;
+
+}
+#a2 a {border-style: dashed ;
+
 }
 /* FINAL DE ESTILO Gerardo66-cyber */
 #a3 {
