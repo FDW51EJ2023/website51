@@ -35,6 +35,11 @@ ul {
 /* Estilos de Cross-87 */
 #a4 {
     background-color: rgb(103, 87, 245);
+    border-style: double;
+}
+#a4 a {
+    color: #fff;
+    font-variant: small-caps;
 }
 /* Fin de estilos de Cross-87 */
 
