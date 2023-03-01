@@ -1,0 +1,42 @@
+/* Estilo section */
+section {
+    border: 1px solid black;
+}
+section:hover {
+    background-color: rgb(171, 255, 137);
+    border: 1px solid blue;
+}
+p:hover {
+    color: blue;
+    font-variant: small-caps;
+}
+
+/* Cambiar color de fondo al primer elemento de la lista1 */
+ #lista1 li:first-child {
+    background-color: blueviolet;
+    color: burlywood;
+}
+
+/* Cambiar el borde de abajo al ultimo elemento de la lista1 */
+#lista1 li:last-child {
+    border-bottom: 5px groove blueviolet;
+}
+
+/* Cambiar el estilo al elemento 7 de la lista1 */
+#lista1 li:nth-child(7){
+    font-size: 25px;
+    border-left: 4px dotted blue;
+}
+ /* Cambiar estilo de los elementos pares */
+ #lista2 li:nth-child(even){
+     background-color: rgb(122, 241, 196);
+ }
+
+ /* Cambiar el estilo a los elementos impares */
+ #lista2 li:nth-child(odd){
+     background-color: rgb(156, 87, 221);
+ }
+
+ #lista2 li:nth-child(5n){
+     border-bottom: 2px solid black;
+ }
