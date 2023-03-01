@@ -23,14 +23,32 @@ ul {
 #a1 {
     background-color: red;
 }
-
+/* INICIO DE ESTILO Gerardo66-cyber*/
 #a2 {
-    background-color: red;
+    background-color: rgb(10, 13, 202);
+}
+#a2 a {
+    font-variant: small-caps;
+    color: chocolate;
+}
+#a2  {border-style: dashed  ;
+}
+#a2 {
+    border-radius: 20px;
+}
+/* FINAL DE ESTILO Gerardo66-cyber */
+
+/* Estilos de RolandoCastro2*/
+#a3 {
+    background-color: darkred;
+    border-style: double;
+}
+#a3 a {
+    color: #fff;
+    font-variant: small-caps;
 }
 
-#a3 {
-    background-color: red;
-}
+/* Fin de estilos de RolandoCastro2 */
 
 /* Estilos de Cross-87 */
 #a4 {
@@ -61,6 +79,9 @@ ul {
 /* Estilo de OscarEnriquez5509 */
 #a7 {
     background-color: aquamarine;
+    color: white;
+    font-variant: small-caps;
+    border-style: groove;
 }
 /* Fin de esilo OscarEnriquez5509 */
 
@@ -71,9 +92,10 @@ ul {
 /* Estilos de CamiGom */
 #a9 {
     background-color: lightpink;
+    border: 5px dashed palevioletred;
 }
-#a9 {
-    font-variant: small-caps;
+#a9 a {
+    font-variant: small-caps;  
 }
 /* Fin de estilos de CamiGom */
 
@@ -106,7 +128,13 @@ ul {
 /*  Estilo de EDPM01 */
 #a16 {
     background-color: rgb(73, 220, 37);
+    border: 2px;
 }
+
+#a16 a {
+    font-variant: small-caps;
+}
+
 /* Fin de estilo EDPM01 */
 #a17 {
     background-color: cornflowerblue;
@@ -116,11 +144,21 @@ ul {
 #a18 {
     background-color: blueviolet;
 }
+#a18{
+    font-variant: small-caps;
+    border: dotted 7px;
+}
 /* Fin de los Estilos de EduSegundo */
 
+/* Estilos de ArkhamTovar */
 #a19 {
-    background-color: red;
+    background-color: rgb(255, 145, 0);
+    border: dotted 5px;
 }
+#a19 a {
+    font-variant: small-caps;
+}
+/* Fin de estilos */
 
 #a20 {
     background-color: red;
@@ -129,4 +167,5 @@ ul {
 #a21 {
     background-color: red;
 }
+
 
