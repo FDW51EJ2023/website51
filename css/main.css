@@ -130,7 +130,10 @@ ul {
 #a16 {
     background-color: rgb(73, 220, 37);
     border: 2px;
-}
+    border-style: dashed  ;
+        border-radius: 20px;
+    }
+
 
 #a16 a {
     font-variant: small-caps;
