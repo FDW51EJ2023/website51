@@ -119,7 +119,8 @@ ul {
 /* Fin de los estilos de Manue1Mart1nez26 */
 
 #a14 {
-    background-color: red;
+    background-color: purple (10, 100, 40);
+    border: 3px;
 }
 
 #a15 {
@@ -129,7 +130,10 @@ ul {
 #a16 {
     background-color: rgb(73, 220, 37);
     border: 2px;
-}
+    border-style: dashed  ;
+        border-radius: 20px;
+    }
+
 
 #a16 a {
     font-variant: small-caps;
