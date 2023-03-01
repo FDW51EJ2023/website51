@@ -28,3 +28,17 @@ p:hover{
     color: yellow    ;
     border-bottom: 15px greenyellow;
 }
+
+/* Cambiarestilo de los pares */
+#lista2 li:nth-child(even){
+    background-color: aqua;
+}
+#lista2 li:nth-child(odd){
+    background-color: darkblue;
+    color: white;
+}
+
+#lista2 li:nth-child(5n){
+    background-color: darkblue;
+    color: white;
+}
