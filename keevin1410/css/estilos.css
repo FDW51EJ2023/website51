@@ -1,0 +1,50 @@
+
+/* ESTILO SECTION */
+
+
+section {
+    border: 1px solid blueviolet;
+}
+
+section:hover {
+    border: 3px solid maroon;
+    background-color: blue;
+}
+
+p:hover {
+    color: goldenrod;
+    font-variant: small-caps;
+}
+
+/* CAMBIAR COLOR DE FONDO AL PRIMER ELEMENTO DE LA LISTA*/
+
+#lista1 li:first-child {
+    background-color: rgb(39, 129, 114);
+    color: rgb(121, 114, 77);
+}
+
+/* cambiar estilo al ultimo elemento de la lista*/
+
+#lista1 li:last-child {
+    border-bottom: 5px groove lightcoral;
+}
+
+/*cambiar estilo lista 7*/
+#lista1 li:nth-child(7) {
+    font-size: 20px;
+    border-left: 4px dotted purple;
+}
+
+/* CAMBIAR ESTILO A ELEMENTOS PARES */
+#lista2 li:nth-child(even){
+    background-color: grey;
+}
+
+/* CAMBIAR ESTILO A ELEMENTOS IMPARES */
+#lista2 li:nth-child(odd){
+    background-color: yellowgreen;
+}
+
+#lista2 li:nth-child(5n) {
+    border-bottom: 3px dotted blue;
+}
