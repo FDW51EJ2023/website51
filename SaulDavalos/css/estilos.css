@@ -1,0 +1,48 @@
+/* Estilo section */
+
+section {
+    border: 1px solid black;
+}
+section:hover {
+    border: 1px solid yellowgreen;
+    background-color: cornflowerblue;
+}
+
+p:hover {
+    color: gold;
+}
+
+#lista1 li:first-child {
+    background-color: black;
+    color: yellowgreen;
+}
+
+#lista1 li:last-child {
+    border-bottom: 5px groove rebeccapurple;
+}
+
+/* Cambiar estilo al elemento 7 */
+
+#lista1 li:nth-child(7) {
+    font-size: 20px;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+/* Cambiar estilo a los elementos pares */
+
+#lista2 li:nth-child(even) {
+    background-color: black;
+    color: lightseagreen;
+    border: 10px dotted lightseagreen;
+}
+
+#lista2 li:nth-child(odd) {
+    background-color: black;
+    color: lightgreen;
+    border: 10px dotted lightgreen;
+}
+
+#lista2 li:nth-child(5n) {
+    border-bottom: 5px solid red;
+}
