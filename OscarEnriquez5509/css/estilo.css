@@ -1,0 +1,50 @@
+/* Estilo seccion */
+
+section{
+    border: 1px solid black;
+}
+
+section:hover{
+    border: 1px solid yellowgreen;
+    background-color: cornflowerblue;
+}
+
+p:hover{
+    color: gold;
+    font-variant: small-caps;
+}
+
+/* Cambiar color de fondo al primer elemento de una lista1 */
+
+#Lista1 li:first-child{
+    background-color: black;
+    color: green;
+}
+
+/* Cambiar estilo al ultimo elemento de la lista */
+
+#Lista1 li:last-child{
+    border-bottom: 5px groove rosybrown;
+}
+
+/* Cambiar estilo al elemento 7 de las listas */
+
+#Lista1 li:nth-child(7){
+    font-size: 20px;
+    border-left: 4px dotted blue;
+}
+
+/* Cambiar estilo a elementos pares */
+/* even son pares y odd son nones */
+
+#Lista2 li:nth-child(even){
+    background-color: grey;
+}
+
+#Lista2 li:nth-child(odd){
+    background-color: yellow;
+}
+
+#Lista2 li:nth-child(5n){
+    border-bottom: 3px dotted black;
+}
