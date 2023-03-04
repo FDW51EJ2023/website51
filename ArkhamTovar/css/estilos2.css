@@ -3,3 +3,37 @@
 p::first-letter{
     font-size: 150px;
 }
+
+
+div.card{
+    background-color: blue;
+}
+
+div{
+    background-color: blueviolet; /* !important para que no haya especificaciones */
+}
+
+/* Modelo de caja */
+#a1{
+    background-color: crimson;
+    color: aliceblue;
+    padding: 5px;
+    border: 5px dotted black;
+    margin: 5px;
+}
+
+#a1 h2{
+    background-color: black;
+    margin:0px;
+}
+
+#a2{
+    background-color: blue;
+}
+
+#a2 p{
+    background-color: red;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
