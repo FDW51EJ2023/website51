@@ -1,9 +1,9 @@
 /* Pseudo-elementos */
 
-p::first-letter{
+/* p::first-letter{
     font-size: 150px;
 }
-
+ */
 
 div.card{
     background-color: blue;
@@ -37,3 +37,20 @@ div{
     padding: 10px 20px;
 }
 
+#a3{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#a4{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+}
