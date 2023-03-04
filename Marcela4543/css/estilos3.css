@@ -67,3 +67,20 @@ span {
 
     width: 100px;
 }
+
+#s6 ul {
+    background-color: #CD0404;
+
+}
+
+#s6 li {
+    float: left;
+    width: 25%;
+
+}
+
+.clearfix:after {
+    clear:both;
+    content: "";
+    display: table;
+}
