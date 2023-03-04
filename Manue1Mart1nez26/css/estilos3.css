@@ -62,3 +62,23 @@ span {
     background-color: #537FE7;
     overflow: auto;
 }
+
+#s5 img {
+    width: 300px;
+    float: right;
+    margin-left: 1em;
+}
+
+#s6 ul {
+    background-color: #11cfe0;
+}
+#s6 li {
+    float:left;
+    width: 25%;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
