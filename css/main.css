@@ -112,9 +112,16 @@ ul {
 }
 
 /* Estilos de Manue1Mart1nez26 */
-#a13 {
-    background-color: rgba(0, 38, 255, 0.486);
-    color:black
+#a13  {
+    background-color: black;
+    color: blue;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+#a13 a {
+    font-variant: small-caps;
+    color: blue;
 }
 /* Fin de los estilos de Manue1Mart1nez26 */
 
