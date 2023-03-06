@@ -1,4 +1,4 @@
-/* Cambiar de en linea a bloque las etiquetas span */
+/* cambiar de en linea a bloque las etiquetas span */
 
 /* span {
     display: block;
@@ -6,7 +6,7 @@
 
 span {
     display: inline-block;
-    background-color:  hotpink;
+    background-color: hotpink;
     width: 50px;
     height: 50px;
 }
@@ -21,13 +21,13 @@ span {
     background-color: brown;
 }
 
-
 #s1 h2 {
-    background-color: gray;
     font-size: 35px;
+    background-color: aqua;
+    font-size: 25px;
     padding: 0.25em;
     border: 0.1em solid black;
-    margin: 0.5em;
+    margin: 0.5rem;
 }
 
 #s2 {
@@ -43,37 +43,36 @@ span {
 }
 
 #div1 {
-    background-color: gray;
+    background-color: skyblue;
     width: 200px;
     height: 200px;
 }
 
-#n1 a{
-    background-color: #16FF00;
+#n1 {
+    background-color: #DDF7E3;
 }
 
-#n1 a:hover{
-    background-color: #ffee00;
+#n1 {
+    background-color: #FFED00;
 }
 
 #s4 p {
     width: 10rem;
     height: 10rem;
-    background-color: #537FE7;
+    background-color: #F16767;
     overflow: auto;
 }
 
 #s5 img {
-    width: 300px;
-    float: right;
-    margin-left: 1em;
+    width: 100px;
+    float: left;
 }
 
 #s6 ul {
-    background-color: #11cfe0;
+    background-color: #9DC08B;
 }
 #s6 li {
-    float:left;
+    float: left;
     width: 25%;
 }
 
