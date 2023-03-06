@@ -1,0 +1,76 @@
+/* pseudo - elemenyo */
+
+/* p::first-letter {
+    font-size: 150px;
+} */
+
+p::first-line {
+    background-color: purple;
+}
+div.card {
+    background-color: brown;
+}
+
+div {
+    background-color: aquamarine !important;
+}
+
+
+/* Modelo de caka */
+#a1 {
+    background-color: lightpink;
+    color: black;
+    padding: 2px;
+    border: 2px dotted palevioletred;
+    margin: 5px;
+}
+
+#a1 h2 {
+    background-color: lightslategray;
+    margin:0;
+}
+
+#a2 {
+    background-color: lightgreen;
+}
+
+#a2 p{
+    background-color: green;
+    border: 1px solid gold;
+    /* 10 px los 4 lados */
+    /* padding: 10px; */
+
+    /* 10 px superior-inferior */
+    /* 20 px izquierda-derecha */
+/*     padding: 10px 20px; */
+
+/* 5px superior */
+/* 25px inferior */
+/* 50px izq-der */
+    /*  padding: 5px 50px 25px; */
+
+    /* 5px superior */
+    /* 10px der */
+    /* 15px inf */
+    /* 20px izq */
+    /*  padding: 5px 10px 15px 20px; */
+    margin: 10px 30px 5px;
+
+}
+
+#a3 {
+    background-color: lightsalmon;
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+    padding: 5px;
+}
+
+#a4 {
+    background-color: lightsalmon;
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+    padding: 5px;
+    box-sizing: border-box;
+}
