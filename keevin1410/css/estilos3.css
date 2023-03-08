@@ -1,0 +1,81 @@
+/* CAMBIAR DE EN LÍNEA A BLOQUE LAS ETIQUETAS SPAN */
+
+/* span {
+    display: block;
+} */
+
+span {
+    display: block;
+    background-color: lightgreen;
+    width: 50px;
+    height: 100px;
+}
+
+info1 {
+    display: inline;
+    background-color: greenyellow;
+}
+
+info2 {
+    background-color: magenta;
+}
+
+#s1 h2 {
+    background-color: darkcyan;
+    font-size: 25px;
+    padding: 0.25em;
+    border: 0.1em solid midnightblue;
+    margin: 0.5em;
+}
+
+#s2 {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+}
+
+#s3 {
+    background-color: lightpink;
+    width: 100%;
+    height: 50%;
+}
+
+#div1 {
+    background-color: darkorchid;
+    width: 200px;
+    height: 200px;
+}
+
+#n1 a{
+    background-color: #865DFF;
+}
+
+#n1 a:hover{
+    background-color: #FFA3FD;
+}
+
+#s4 p {
+    width: 10rem;
+    height: 10rem;
+    background-color: #537FE7;
+    overflow: scroll;
+}
+
+#s5 img {
+    width: 500px;
+    float: right;
+}
+
+#s6 ul {
+    background-color: #C0EEF2;
+}
+#s6 li {
+    float:left;
+    width: 25%;
+}
+
+.clearflix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
