@@ -61,3 +61,23 @@ span {
     background-color: #f7f30b;
     overflow: auto;
 }
+
+#s5 img {
+    width: 100px;
+    float: right;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#s6 {
+    background-color: rgb(66, 156, 137);
+}
+
+#s6 li {
+    float: left;
+    width: 25%;
+}
