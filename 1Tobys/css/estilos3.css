@@ -68,3 +68,22 @@ span {
     overflow: scroll
     ;
 }
+
+#s5 img{
+    width: 100px;
+}
+
+#s6 ul{
+    background-color: #F9AA29;
+}
+
+#s6 li{
+    float: left;
+    width: 25%;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
