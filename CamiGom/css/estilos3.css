@@ -67,6 +67,26 @@ span {
     overflow: auto;
 }
 
+#s5 img {
+    width: 100px;
+    float: left;
+}
+
+
+#s6 ul {
+    background-color: #f0b6d1;
+}
+
+#s6 li {
+    float: left;
+    width: 25%;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
 
 
 
