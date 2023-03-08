@@ -1,0 +1,58 @@
+/* Pseudo-elementos */
+
+p::first-letter {
+    /* font-size: 150px; */
+}
+p::first-line {
+    background-color: #f90;
+}
+div.card {
+    background-color: #f9f;
+}
+div {
+    background-color: #fdf !important;
+}
+
+/* Modelo de caja */
+#a1 {
+    background-color: #f99;
+    color: white;
+    padding: 5px;
+    border: 5px dotted black;
+    margin: 5px;
+}
+#a1 h2 {
+    background-color: black;
+    margin: 0;
+}
+#a2 {
+    background-color: #f00;
+}
+#a2 p {
+    background-color: #a6f;
+    border: 1px solid black;
+    /* 10px a los 4 lados */
+    /* padding: 10px */
+    /* 10px a arriba-abajo y 20 px a derecha-izquierda
+    padding: 10px 20px; */
+    /* 10px arriba, 30px derecha-izquierda y 40px abajo */
+    /* padding: 10px 30px 40px; */
+    /* 10px arriba, 20px derecha, 30px abajo y 40px izquierda */
+    padding: 10px 20px 30px 40px;
+    margin: 10px 30px 5px;
+}
+#a3 {
+    background-color: #fdf;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 5px;
+}
+#a4 {
+    background-color: #fdf;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+}
