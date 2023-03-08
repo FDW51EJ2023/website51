@@ -1,0 +1,89 @@
+/* Cambiar de en linea a bloque las etiquetas span  */
+
+/* span{
+    display: block;
+} */
+
+span {
+    color: aqua;
+    display: inline-block;
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+}
+
+#info1{
+    display: inline;
+    background-color: antiquewhite;
+}
+
+#info2{
+    color: aqua;
+    display: inline;
+    background-color: teal;
+}
+
+#s1 h2{
+    font-size: 35px;
+    color: greenyellow;
+    background-color: grey;
+    padding: 0.25em;
+    border: 0.1em solid black;
+    margin: 0.5em;
+}
+
+#s2 {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+}
+
+#s3 {
+    color: aqua;
+    background-color: black;
+    width: 100%;
+    height: 50%;
+}
+
+#div1 {
+    color: aqua;
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+}
+
+#n1 a{
+    background-color: #16FF00;
+}
+
+#n1 a:hover {
+    background-color: #FFED00;
+    
+}
+
+#s4 p{
+    width: 10rem;
+    height: 10rem;
+    background-color: #F9AA29;
+    overflow: scroll
+    ;
+}
+
+#s5 img{
+    width: 100px;
+}
+
+#s6 ul{
+    background-color: #F9AA29;
+}
+
+#s6 li{
+    float: left;
+    width: 25%;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
