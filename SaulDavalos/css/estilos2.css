@@ -1,0 +1,73 @@
+/* Pseudo-elementos */
+
+/* p::first-letter {
+    font-size: 150px;
+} */
+
+p::first-line {
+    background-color: lightsalmon;
+}
+
+div.card {
+    background-color: blue;
+}
+
+div {
+    background-color: red;
+}
+
+/* Modelo de caja */
+
+#a1 {
+    background-color: cyan;
+    color: rgb(223, 111, 111);
+    padding: 5px;
+    border: 5px dotted black;
+    margin: 5px;
+}
+
+#a1 h2 {
+    background-color: black; 
+    margin: 0px;
+}
+
+#a2 {
+    background-color: blue;
+}
+
+#a2 p{
+    background-color: tomato;
+    border: 1px solid black;
+    /* 5 px a cada lado 
+    padding: 5px; */
+
+    /* 10 px superior e inferior 
+    20 px a los lados
+    padding: 10px 20px; */
+
+    /* 5 pixeles superior, 50 a los lados, 25 inferior */
+    padding: 5px 50px 25px;
+
+    /* A cada lado se le pone un pixel diferente */
+    padding: 5px 50px 25px 10px;
+    margin: 10px 30px 5px;
+
+    border-bottom: 10px solid red;
+}
+
+#a3 {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 5px;
+}
+
+#a4 {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+}

@@ -126,8 +126,9 @@ ul {
 /* Fin de los estilos de Manue1Mart1nez26 */
 
 #a14 {
-    background-color: purple (10, 100, 40);
-    border: 3px;
+    background-color: maroon;
+    color:pink;
+    border: 3px ;
 }
 
 #a15 {
@@ -136,6 +137,7 @@ ul {
 /*  Estilo de EDPM01 */
 #a16 {
     background-color: rgb(73, 220, 37);
+    color: blue;
     border: 2px;
     border-style: dashed  ;
         border-radius: 20px;
