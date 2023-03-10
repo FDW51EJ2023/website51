@@ -61,3 +61,25 @@ span{
     height: 10rem;
     overflow: auto;
 }
+
+/* #s5 p{
+    display: block;
+} */
+/* #s5 img {
+    width: 100px;
+    float: right;
+} */
+
+#s6 {
+    clear:both;
+}
+#s6 li {
+    float: left;
+    width: 25%;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
