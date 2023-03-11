@@ -10,7 +10,7 @@ section:hover {
 }
 
 p:hover {
-    color: hotpink;
+    color: rgba(13, 104, 99, 0.849);
     font-variant: small-caps;
 }
 
