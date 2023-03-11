@@ -1,0 +1,83 @@
+/* pseudo - elementos */
+
+/* p::first-letter{
+    font-size: 150px;
+} */
+
+p::first-line {
+    background-color: peachpuff;
+}
+
+div.card{
+    background-color: lightgrey;
+}
+
+div{
+    background-color: aqua !important;
+}
+
+/* Modelo de caja */
+
+#a1 {
+    background-color: lightpink;
+    color: white;
+    padding: 5px;
+    border: 5px dotted blueviolet;
+    margin: 5px;
+}
+
+#a1 h2 {
+    background-color: darkmagenta;
+    margin: 0;
+}
+
+#a2 {
+    background-color: palevioletred;
+}
+
+
+#a2 p{
+    background-color: rgb(5, 124, 124);
+    border: 1px solid black;
+    
+
+    /* 10px padding los 4 lados */
+    /* padding: 10px; */
+
+    /* 10px superior-inferior */
+    /* 20px izq der */
+    padding: 10px 20px;
+
+    /* 5px superior */
+    /* 25px inferior */
+    /* 5px izq-der */
+    padding: 5px 50px 25px;
+
+    /* 5px superior */
+    /* 10px der */
+    /* 15px inferior */
+    /* 20px izq */
+    padding: 5px 10px 15px 20px;
+
+    margin: 10px 30px 5px;
+
+    border: 1px solid blueviolet 5px solid red;
+    
+}
+
+#a3 {
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 5px;
+}
+
+#a4 {
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+}
