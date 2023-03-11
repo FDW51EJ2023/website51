@@ -1,0 +1,70 @@
+/* Cambiar de estilo en línea a bloque las etiquetas span */
+
+/* span {
+    display: block;
+} */
+
+span {
+    display: inline-block;
+    background-color: hotpink;
+    width: 50px;
+    height: 50px;
+}
+#info1 {
+    display: inline;
+    background-color: aqua;
+}
+#info2 {
+    display: inline;
+    background-color: greenyellow;
+}
+#s1 h2 {
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 0.25em;
+    border: 0.1em solid black;
+    margin: 0.5rem; /* <- REM le hace caso al tamaño de la raíz, es decir, toma 16px como referencia */
+}
+#s2 {
+    background-color: burlywood;
+    width: 50vw;
+    height: 100vh;
+}
+#div1 {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
+#s3 {
+    background-color: cadetblue;
+    width: 90%;
+    height: 50%;
+}
+#n1 {
+    background-color: #865DFF;
+}
+#n1:hover {
+    background-color: rgb(227, 132, 255);
+}
+#s4 p {
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(255, 163, 253);
+    overflow: auto;
+}
+#s5 img {
+    width: 200px;
+    float: right;
+}
+#s6 ul {
+    background-color: #865DFF;
+}
+#s6 li{
+    float: left;
+    width: 25%;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
