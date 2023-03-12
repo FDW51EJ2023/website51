@@ -1,86 +1,89 @@
-/* Cambiar en linea a bloque las etiquetas span */
+/* Cambiar de en línea a bloque las etiquetas span */
 
 /* span {
     display: block;
 } */
 
+
 span {
     display: inline-block;
-    background-color: blueviolet;
+    background-color: #FFEBB4;
     width: 50px;
     height: 50px;
 }
 
 #info1 {
-    background-color: gray;
-
+    display: inline;
+    background-color: #FBFFB1;
 }
 
 #info2 {
-    background-color:pink;
+    display: inline;
+    background-color: lightpink;
 }
 
-#s1 h2 {
-    background-color: gray;
-    font-size: 20px;
-    padding : 0.25em;
-    border: 0.1em solid black;
-    margin: 0.5em;
 
+#s1 h2 {
+    background-color: rgb(135, 231, 149);
+    font-size: 35px;
+    padding: 0.25em;
+    border: 0.1em solid black;
+    margin: 0.5rem;
+    
 }
 
 #s2 {
-    background-color: peru;
+    background-color: rgb(192, 238, 124);
     width: 100vw;
     height: 100vh;
-
 }
 
 #s3 {
-    background-color: lawngreen;
+    background-color: #f7ffa3;
     width: 100%;
-    height: 90%;
-
+    height: 50%;
 }
 
 #div1 {
-
-    background-color: gray;
+    background-color: #FFFFE8;
     width: 200px;
     height: 200px;
 }
 
-#n1 a:hover {
-    background-color:  #FFBFA9;
+
+#n1 a{
+    background-color: #FBFFB1 ;
+}
+
+#n1 a:hover{
+    background-color: hsla(322, 91%, 84%, 1);
 
 }
 
 #s4 p {
-    width: 10em;
+    width: 10rem;
     height: 10rem;
-    background-color: #CD0404;
-    overflow: hidden;
-    
+    background-color: #FFBFA9;
+    overflow: auto;
 }
 
 #s5 img {
-
     width: 100px;
+    float: left;
 }
 
-#s6 ul {
-    background-color: #CD0404;
 
+#s6 ul {
+    background-color: #f0b6d1;
 }
 
 #s6 li {
     float: left;
     width: 25%;
-
 }
 
-.clearfix:after {
-    clear:both;
+.clearfix::after {
+    clear: both;
     content: "";
     display: table;
 }

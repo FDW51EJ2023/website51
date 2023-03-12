@@ -79,9 +79,11 @@ ul {
 /* Estilo de OscarEnriquez5509 */
 #a7 {
     background-color: aquamarine;
-    color: white;
     font-variant: small-caps;
     border-style: groove;
+}
+#a7 a {
+    color: white;
 }
 /* Fin de esilo OscarEnriquez5509 */
 

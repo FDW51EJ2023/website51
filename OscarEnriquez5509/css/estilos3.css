@@ -1,0 +1,83 @@
+/* Cambiar de en linea a bloque las etiquetas span */
+
+/* span{
+    display: block;
+} */
+
+span{
+    display: inline-block;
+    background-color: hotpink;
+    width: 100px;
+    height: 100px;
+}
+
+info1{
+    display: inline;
+    background-color: gray;
+}
+
+info2{
+    display: inline;
+    background-color: brown;
+}
+
+#s1 h2{
+    font-size: 35px;
+    background-color: gray;
+    padding: 0.25rem;
+    border: 0.1rem solid black;
+    margin: 0.5rem;
+}
+
+#S2 {
+    background-color: peru;
+    width: 100vw;
+    height: 100vh;
+}
+
+#S3{
+    background-color: lawngreen;
+    width: 90%;
+    height: 50%;
+}
+
+#div1{
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+}
+
+#n1 a{
+    background-color: #16FF00;
+}
+
+#n1 a:hover{
+    background-color: #ffed00;
+}
+
+#S4 p{
+    width: 10rem;
+    height: 10rem;
+    background-color: #F94A29;
+    overflow: auto;
+}
+
+S5 img{
+    width: 100px;
+    float: right;
+}
+
+#S6 ul{
+    background-color: #D61355;
+}
+
+#S6 li{
+    float: left;
+    width: 25%;
+}
+
+clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
