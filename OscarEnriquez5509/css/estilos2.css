@@ -1,72 +1,62 @@
-/* pseudo - elementos */
+/* Pseudo elementos */
 
 /* p::first-letter{
     font-size: 150px;
 } */
 
-p::first-line {
+p::first-line{
     background-color: peachpuff;
 }
 
-div.card{
-    background-color: lightgrey;
+div.cartd{
+    background-color: blue;
 }
 
 div{
-    background-color: aqua !important;
+    background-color: red !important; /* no usar muy seguido el important */
 }
-
 /* Modelo de caja */
 
-#a1 {
-    background-color: lightpink;
+#a1{
+    background-color: brown;
     color: white;
     padding: 5px;
-    border: 5px dotted blueviolet;
+    border: 5px dotted black;
     margin: 5px;
 }
 
-#a1 h2 {
-    background-color: darkmagenta;
+#a1 h2{
+    background-color: black;
     margin: 0;
 }
 
-#a2 {
-    background-color: palevioletred;
-}
-
-
 #a2 p{
-    background-color: rgb(5, 124, 124);
+    background-color: tomato;
     border: 1px solid black;
-    
 
-    /* 10px padding los 4 lados */
+    /* 10px los 4 lados */
     /* padding: 10px; */
 
     /* 10px superior-inferior */
-    /* 20px izq der */
+    /* 10px izquierda y derecha */
     padding: 10px 20px;
 
     /* 5px superior */
-    /* 25px inferior */
-    /* 5px izq-der */
+    /* 25px inperior */
+    /* 50px izq-der */
     padding: 5px 50px 25px;
 
     /* 5px superior */
-    /* 10px der */
+    /* 10px derecha */
     /* 15px inferior */
-    /* 20px izq */
+    /* 20px izquierda */
     padding: 5px 10px 15px 20px;
 
-    margin: 10px 30px 5px;
-
-    border: 1px solid blueviolet 5px solid red;
-    
+    margin: 10px 30px 5px 30px; /* o se puede poner asi 10px 30px 5px */
 }
 
 #a3 {
-    background-color: coral;
+    background-color: yellow;
     width: 200px;
     height: 200px;
     border: 5px solid black;
@@ -74,7 +64,7 @@ div{
 }
 
 #a4 {
-    background-color: coral;
+    background-color: yellow;
     width: 200px;
     height: 200px;
     border: 5px solid black;
